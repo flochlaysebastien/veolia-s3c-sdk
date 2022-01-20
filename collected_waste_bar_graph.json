@@ -1,0 +1,333 @@
+{
+    "filters": {
+        "dashboardid": [
+            "abcdefg12345678"
+        ],
+        "datestart": "2021-01-01",
+        "dateend": "2021-04-01",
+        "maxdayrange": "180",
+        "maxdayrangeerror": "You can only select up to a 180 day range.",
+        "customfilters": {
+            "filter1": {
+                "name": "type",
+                "icon": "list",
+                "defaulttext": "Select Types",
+                "activevalue": "",
+                "allvalues": [
+                    {
+                        "value": "waste",
+                        "label": "Waste"
+                    },
+                    {
+                        "value": "energy",
+                        "label": "Energy"
+                    },
+                    {
+                        "value": "water",
+                        "label": "Water"
+                    }
+                ]
+            },
+            "filter2": {
+                "name": "workplaces",
+                "icon": "home",
+                "defaulttext": "Select Workplaces",
+                "activevalue": "",
+                "allvalues": [
+                    {
+                        "value": "wrkid123456",
+                        "label": "Workplace 1"
+                    },
+                    {
+                        "value": "wrkid56789",
+                        "label": "Workplace 2"
+                    },
+                    {
+                        "value": "wrkid101112",
+                        "label": "Workplace 3"
+                    }
+                ]
+            },
+            "filter3": {
+                "name": "operations",
+                "icon": "briefcase",
+                "defaulttext": "Select Operations",
+                "activevalue": "",
+                "allvalues": [
+                    {
+                        "value": "opid123456",
+                        "label": "Operation 1"
+                    },
+                    {
+                        "value": "opid123457",
+                        "label": "Operation 2"
+                    },
+                    {
+                        "value": "opid123458",
+                        "label": "Operation 3"
+                    }
+                ]
+            },
+            "filter4": {
+                "name": "materials",
+                "icon": "catalogue",
+                "defaulttext": "Select Materials",
+                "activevalue": "",
+                "allvalues": [
+                    {
+                        "value": "matid123456",
+                        "label": "Material 1"
+                    },
+                    {
+                        "value": "matid123457",
+                        "label": "Material 2"
+                    },
+                    {
+                        "value": "matid123458",
+                        "label": "Material 3"
+                    }
+                ]
+            },
+            "filter5": {
+                "name": "locations",
+                "icon": "mappin",
+                "defaulttext": "Select Locations",
+                "activevalue": "",
+                "allvalues": [
+                    {
+                        "value": "locid123456",
+                        "label": "Location 1"
+                    },
+                    {
+                        "value": "locid123457",
+                        "label": "Location 2"
+                    },
+                    {
+                        "value": "locid123458",
+                        "label": "Location 3"
+                    }
+                ]
+            },
+            "filter6": {
+                "name": "status",
+                "icon": "clock",
+                "defaulttext": "Select Status",
+                "activevalue": "",
+                "allvalues": [
+                    {
+                        "value": "statusid123456",
+                        "label": "Status 1"
+                    },
+                    {
+                        "value": "statusid123457",
+                        "label": "Status 2"
+                    },
+                    {
+                        "value": "statusid123458",
+                        "label": "Status 3"
+                    }
+                ]
+            }
+        },
+        "language": {
+            "activevalue": "en",
+            "allvalues": [
+                {
+                    "value": "fr",
+                    "name": "French"
+                },
+                {
+                    "value": "de",
+                    "name": "German"
+                },
+                {
+                    "value": "sv",
+                    "name": "Swedish"
+                }
+            ]
+        }
+    },
+    "summary": {
+        "datelastupdated": "2021-01-02 12:01:01",
+        "datelastupdatedlabel": "Updated"
+    },
+    "helptext":"",
+    "graphtype": "bar",
+    "graphheader": {
+        "title": "Collected Materials",
+        "metric": "Weight",
+        "submetric": "Total",
+        "value": "12345",
+        "unit": {
+            "key": "kg"
+        }
+    },
+    "graphkeys": [ "hot dog", "burger", "sandwich", "kebab", "fries", "donut" ],
+    "graphcolors": [
+        "hsl(180, 22%, 82%)",
+        "hsl(43, 48%, 72%)",
+        "hsl(208, 21%, 73%)",
+        "hsl(25, 46%, 75%)",
+        "hsl(13, 80%, 70%)",
+        "hsl(193, 46%, 64%)",
+        "hsl(355, 35%, 78%)",
+        "hsl(167, 29%, 61%)",
+        "hsl(122, 32%, 78%)",
+        "hsl(306, 11%, 66%)",
+        "hsl(71, 52%, 64%)",
+        "hsl(30, 5%, 78%)",
+        "hsl(73, 87%, 40%)",
+        "hsl(157, 72%, 35%)",
+        "hsl(214, 46%, 62%)",
+        "hsl(316, 43%, 46%)",
+        "hsl(352, 75%, 73%)",
+        "hsl(9, 79%, 60%)"
+    ],
+    "graphindexby": "country",
+    "axisBottom": {
+        "tickSize": 5,
+        "tickPadding": 5,
+        "tickRotation": 0,
+        "legend": "country",
+        "legendPosition": "middle",
+        "legendOffset": 32
+    },
+    "axisLeft": {
+        "tickSize": 5,
+        "tickPadding": 5,
+        "tickRotation": 0,
+        "legend": "food",
+        "legendPosition": "middle",
+        "legendOffset": -40
+    },
+    "graphdata": [
+        {
+            "country": "AD",
+            "hot dog": 5,
+            "hot dogColor": "hsl(121, 70%, 50%)",
+            "burger": 108,
+            "burgerColor": "hsl(169, 70%, 50%)",
+            "sandwich": 42,
+            "sandwichColor": "hsl(32, 70%, 50%)",
+            "kebab": 177,
+            "kebabColor": "hsl(263, 70%, 50%)",
+            "fries": 177,
+            "friesColor": "hsl(216, 70%, 50%)",
+            "donut": 194,
+            "donutColor": "hsl(11, 70%, 50%)"
+        },
+        {
+            "country": "AE",
+            "hot dog": 90,
+            "hot dogColor": "hsl(343, 70%, 50%)",
+            "burger": 8,
+            "burgerColor": "hsl(338, 70%, 50%)",
+            "sandwich": 137,
+            "sandwichColor": "hsl(337, 70%, 50%)",
+            "kebab": 59,
+            "kebabColor": "hsl(329, 70%, 50%)",
+            "fries": 35,
+            "friesColor": "hsl(65, 70%, 50%)",
+            "donut": 103,
+            "donutColor": "hsl(152, 70%, 50%)"
+        },
+        {
+            "country": "AF",
+            "hot dog": 64,
+            "hot dogColor": "hsl(251, 70%, 50%)",
+            "burger": 63,
+            "burgerColor": "hsl(111, 70%, 50%)",
+            "sandwich": 89,
+            "sandwichColor": "hsl(235, 70%, 50%)",
+            "kebab": 64,
+            "kebabColor": "hsl(120, 70%, 50%)",
+            "fries": 35,
+            "friesColor": "hsl(190, 70%, 50%)",
+            "donut": 199,
+            "donutColor": "hsl(336, 70%, 50%)"
+        },
+        {
+            "country": "AG",
+            "hot dog": 109,
+            "hot dogColor": "hsl(38, 70%, 50%)",
+            "burger": 33,
+            "burgerColor": "hsl(311, 70%, 50%)",
+            "sandwich": 143,
+            "sandwichColor": "hsl(209, 70%, 50%)",
+            "kebab": 101,
+            "kebabColor": "hsl(352, 70%, 50%)",
+            "fries": 183,
+            "friesColor": "hsl(254, 70%, 50%)",
+            "donut": 145,
+            "donutColor": "hsl(241, 70%, 50%)"
+        },
+        {
+            "country": "AI",
+            "hot dog": 63,
+            "hot dogColor": "hsl(146, 70%, 50%)",
+            "burger": 144,
+            "burgerColor": "hsl(26, 70%, 50%)",
+            "sandwich": 54,
+            "sandwichColor": "hsl(104, 70%, 50%)",
+            "kebab": 65,
+            "kebabColor": "hsl(151, 70%, 50%)",
+            "fries": 58,
+            "friesColor": "hsl(13, 70%, 50%)",
+            "donut": 119,
+            "donutColor": "hsl(153, 70%, 50%)"
+        },
+        {
+            "country": "AL",
+            "hot dog": 0,
+            "hot dogColor": "hsl(325, 70%, 50%)",
+            "burger": 193,
+            "burgerColor": "hsl(295, 70%, 50%)",
+            "sandwich": 137,
+            "sandwichColor": "hsl(265, 70%, 50%)",
+            "kebab": 63,
+            "kebabColor": "hsl(209, 70%, 50%)",
+            "fries": 193,
+            "friesColor": "hsl(61, 70%, 50%)",
+            "donut": 104,
+            "donutColor": "hsl(329, 70%, 50%)"
+        },
+        {
+            "country": "AM",
+            "hot dog": 7,
+            "hot dogColor": "hsl(23, 70%, 50%)",
+            "burger": 155,
+            "burgerColor": "hsl(54, 70%, 50%)",
+            "sandwich": 64,
+            "sandwichColor": "hsl(259, 70%, 50%)",
+            "kebab": 55,
+            "kebabColor": "hsl(35, 70%, 50%)",
+            "fries": 86,
+            "friesColor": "hsl(314, 70%, 50%)",
+            "donut": 72,
+            "donutColor": "hsl(331, 70%, 50%)"
+        }
+    ],
+    "legend": {
+        "label": "Legend",
+        "values": [
+            {
+                "color": "hsl(60, 100%, 50%)",
+                "title": "legend item 1"
+            },
+            {
+                "color": "hsl(350, 100%, 50%)",
+                "title": "legend item 2"
+            },
+            {
+                "color": "hsl(138, 100%, 50%)",
+                "title": "legend item 3"
+            }
+        ]
+    },
+    "downloadlink": {
+        "label": "Download:",
+        "linktitle": "CSV",
+        "linkicon": "",
+        "link": "https://loremipsum.de/downloads/original.zip"
+    }
+}
