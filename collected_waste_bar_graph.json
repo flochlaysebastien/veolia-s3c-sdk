@@ -6,7 +6,7 @@
         "datestart": "2021-01-01",
         "dateend": "2021-04-01",
         "maxdayrange": "180",
-        "maxdayrangeerror": "You can only select up to a 180 day range.",
+        "maxdayrangeerror": "You can only select up to a 180 day range....",
         "customfilters": {
             "filter1": {
                 "name": "type",
